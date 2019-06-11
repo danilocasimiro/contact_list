@@ -9,7 +9,10 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+
+gem 'pg'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -26,7 +29,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'jquery-rails'
+gem 'rails-ujs', '~> 0.1.0'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
